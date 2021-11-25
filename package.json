@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot",
+  "name": "alexa-botz",
   "version": "0.0.9",
   "description": "WhatsApp Bot using Baileys",
   "main": "main.js",
@@ -61,7 +61,7 @@
     "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ma'ruf",
+  "author": "ZansLord",
   "license": "MIT license",
   "bugs": {
     "url": "https://github.com/mrfzvx12/whatsapp-bot/issues"
