@@ -40,6 +40,24 @@
   <img src="https://komarev.com/ghpvc/?username=ZansLord&label=VIEWS&style=flat-square&color=orange" />
 </p>
 
+# EDIT OWNER AND OTHER
+* [`INHERE`](https://github.com/ZansLord/ALEXA-BOTZ/blob/main/database/setting-bot.json)
+```
+{
+	"ownerNumber": [
+		"6285869074622@s.whatsapp.net"
+	],
+	"nama": " A L E X A - B O T Z",
+	"author": "Awiakwok Banget Brad",
+	"packname": "Alexa-Botz",
+	"wm": "Follow me on Instagram\nhttps://www.instagram.com/abdulmalik_4342",
+	"gameWaktu": 30000,
+	"poinGame": 100,
+	"poinAwal": 500,
+	"totalcommand": 1
+}
+```
+
 # FOR TERMUX & VPS
 ```
 > $ apt update && apt upgrade
