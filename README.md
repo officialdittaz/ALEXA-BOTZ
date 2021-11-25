@@ -41,6 +41,7 @@
 </p>
 
 # FOR TERMUX & VPS
+```
 > $ apt update && apt upgrade
 > $ apt install ffmpeg imagemagick neofetch
 > $ apt install nodejs npm
@@ -51,12 +52,28 @@
 > $ bash install.sh
 > $ npm start
 Note: scan qr maks 20 detik
+```
 ## FOR HEROKU
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZansLord/ALEXA-BOTZ/)
-Add Buildpack
+## Add Buildpack
+```
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 > https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 > heroku/nodejs
+```
+## Install heroku cli on termux
+```
+> $curl https://cli-assets.heroku.com/install-ubuntu.sh
+> $bash install-ubuntu.sh
+> $heroku login -i (masukin gmail dan password heroku)
+> $cd my-project/
+> $git init
+> $heroku git:remote -a yournameapp
+> $git add .
+> $git commit -am "make it better"
+> $git push heroku master
+Note: jangan lupa run dulu dan scan di termux
+```
 
 # Thanks for ⬇️
 
