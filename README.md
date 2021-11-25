@@ -40,6 +40,24 @@
   <img src="https://komarev.com/ghpvc/?username=ZansLord&label=VIEWS&style=flat-square&color=orange" />
 </p>
 
+# FOR TERMUX & VPS
+$ apt update && apt upgrade
+$ apt install ffmpeg imagemagick neofetch
+$ apt install nodejs npm
+$ apt install git
+$ apt install mc nano
+$ git clone https://github.com/ZansLord/ALEXA-BOTZ
+$ cd ALEXA-BOTZ
+$ bash install.sh
+$ npm start
+Note: scan qr maks 20 detik
+## FOR HEROKU
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZansLord/ALEXA-BOTZ/)
+Add Buildpack
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+> heroku/nodejs
+
 # Thanks for ⬇️
 
 * [`Arip`](https://github.com/Akkun3704)
